@@ -1,0 +1,64 @@
+/********************************************/ 
+/****************** Contest *****************/ 
+/********************************************/ 
+.hide{display:none;}
+
+nav{margin:20px 0;overflow:hidden;}
+nav ul{overflow:hidden;margin:0;padding:0;}
+nav ul li{text-align:center;}
+nav ul li a{color:#eee;}
+nav ul li i{display:block;}
+nav ul li span{display:block;font-size:13px;line-height:1;}
+nav .nav-link{border-bottom: 1px solid #eee;margin: 0 7px;padding:1rem 0.5rem;}
+nav .nav-link i {font-size:25px;}
+p{line-height:1.8;}
+td{padding:5px 10px;}
+#nav-main >div{background:linear-gradient(#2d4262, #1e4696);overflow:hidden;}
+#logo{margin:30px 0;}
+#logo img{width:170px;}
+#header h1{color:#555;text-transform:uppercase;}
+#header h2 a{font-size:1em;color:#555;}
+#header h2{color:#555;}
+#cke_editor {width:98%;}
+#footer {font-size:85%;font-style:italic;margin:30px auto 10px;}
+
+/*# Slider */
+.carousel-item{overflow:hidden;}
+.carousel-item img{width:100%;}
+
+/*# Content */
+#wrapper {padding:30px 10px;}
+#wrapper img {border:1px solid #ccc;border-radius:5px;margin-bottom:30px;padding:5px;width:100%;}
+
+/*# Footer */
+#footer {overflow:hidden;}
+#footer footer{background:linear-gradient(#1e4696, #2d4262);color:white;padding:30px 20px;}
+#footer footer ul{list-style-type:none;}
+#footer footer ul li{display:inline-block;padding:0 10px;}
+
+/*##Device = Laptops, Desktops*/
+
+@media (min-width: 1025px) {
+	nav ul{float:right;}
+	nav ul li{display:inline-block;}
+/*#slider {padding-left:0;padding-right:0;}*/
+	.carousel-item{height:400px;}
+}
+
+/*##Device = Tablets, Ipads (landscape)*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	/*nav ul li{display:inline-block;}*/
+	.title-lg{display:none;}
+	.carousel-item{height:220px;}
+
+}
+
+/* ##Device = Low Resolution Tablets, Mobiles (Landscape)(min-width: 481px) and (max-width: 767px*/
+
+@media (min-width: 250px) and (max-width: 767px) {
+	.title-lg{display:none;}
+	.carousel-item{height:120px;}
+}
+
+
